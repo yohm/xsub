@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__)+'/../scheduler')
 
 module Xsub
 
-  class PBS < Scheduler
+  class Torque2 < Scheduler
 
     TEMPLATE = <<EOS
 #!/bin/bash -x
